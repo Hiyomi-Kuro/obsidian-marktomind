@@ -778,8 +778,9 @@
   .mtm-toolbar select { min-width: 38px; height: 38px; flex: 0 0 auto; }
   .mtm-toolbar input { min-width: 135px; height: 38px; }
   .mtm-canvas-wrap { padding: 18px; -webkit-overflow-scrolling: touch; }
-  .mtm-mindmap { grid-template-columns: auto; }
-  .mtm-mindmap-side.left { display: none; }
+  /* Keep mind-map topology unchanged on narrow screens. The canvas wrapper
+     already scrolls, so responsive styling must not collapse the three-column
+     left / root / right grid or remove one side of a bilateral map. */
   .mtm-node { min-height: 36px; padding: 8px 11px; }
   .mtm-collapse { min-width: 24px; min-height: 24px; }
   .mtm-callout { position: static; transform: none; margin-top: 6px; max-width: 220px; }
