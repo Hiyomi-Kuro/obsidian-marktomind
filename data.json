@@ -1,0 +1,61 @@
+{
+  "settings": {
+    "defaultMode": "mindmap",
+    "defaultLayout": "right",
+    "defaultTheme": "normal",
+    "uiLanguage": "zh-CN",
+    "useCustomShortcuts": false,
+    "historyLimit": 30,
+    "attachmentFolder": "MarkToMind Assets",
+    "handDrawn": false,
+    "allowFreeNodeGesture": true,
+    "mobileScaleSpeed": 0.12,
+    "canvasBackground": "transparent",
+    "autoEmbed": true,
+    "aiEndpoint": "https://api.openai.com/v1/chat/completions",
+    "aiModel": "gpt-4.1-mini",
+    "aiApiKey": "",
+    "annotationTemplate": "Page: {{page}}\n> {{text}}\n[Open PDF]({{link}})"
+  },
+  "fileMeta": {
+    "医学/学科/中医/中医.md": {
+      "collapsed": {},
+      "relations": [],
+      "freeNodes": [],
+      "nodeStyles": {},
+      "layout": "mindmap"
+    },
+    "医学/学科/临床/内科/消化内科/消化道内科/肠内科(肠病)/炎症性肠病/肠内科-炎症性肠病.md": {
+      "collapsed": {},
+      "relations": [],
+      "freeNodes": [],
+      "nodeStyles": {},
+      "layout": "right",
+      "theme": "normal"
+    },
+    "Clippings/科研/华哥生信/基础班/一致性聚类/一致性聚类.md": {
+      "collapsed": {},
+      "relations": [],
+      "freeNodes": [],
+      "nodeStyles": {},
+      "theme": "normal",
+      "layout": "mindmap"
+    }
+  },
+  "history": {
+    "医学/学科/中医/中医.md": [
+      {
+        "time": 1788243745744,
+        "content": "---\nmindmap-plugin: markdown\n中医: 中医\n---\n# 中医\n#中医\n\n| [[学科]] |     |\n| ------ | --- |\n\n\n\n"
+      },
+      {
+        "time": 1788243757011,
+        "content": "---\nmindmap-plugin: markdown\n中医: 中医\nmarktomind: false\n---\n# 中医\n#中医\n\n| [[学科]] |     |\n| ------ | --- |\n\n\n\n"
+      },
+      {
+        "time": 1788243757757,
+        "content": "---\nmindmap-plugin: markdown\n中医: 中医\nmarktomind: true\n---\n# 中医\n#中医\n\n| [[学科]] |     |\n| ------ | --- |\n\n\n\n"
+      }
+    ]
+  }
+}

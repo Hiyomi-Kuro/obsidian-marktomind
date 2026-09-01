@@ -1,0 +1,9 @@
+{
+  "id": "obsidian-marktomind",
+  "name": "MarkToMind",
+  "version": "0.2.0",
+  "minAppVersion": "1.5.0",
+  "description": "简体中文默认界面的 Obsidian 思维导图插件，支持 Rich 节点、鱼骨、主题、触控、XMind、演示与导出。",
+  "author": "Local",
+  "isDesktopOnly": false
+}
